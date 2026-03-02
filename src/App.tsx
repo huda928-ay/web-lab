@@ -1,6 +1,8 @@
+import "./App.css";
+
 function App() {
   return (
-    <div>
+    <div className="container">
       <h1>Web Tasarımı ve Programlama</h1>
       <h2>LAB-1</h2>
 
@@ -9,7 +11,7 @@ function App() {
       <p>Bölüm: Yazılım Mühendisliği</p>
       <p>Hobiler: AR & Web geliştirme 🚀</p>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
